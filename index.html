@@ -9,7 +9,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url("484314049_623296673806321_708817077101192329_n.jpg");
+            background-image: url("1.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -42,7 +42,7 @@
             padding: 40px;
         }
         .content h2 {
-            font-size: 24px;
+            font-size: 12px;
             margin-top: 0;
             color: #ff9900;
             text-shadow: 0 0 5px #ff9900;
@@ -104,6 +104,10 @@
             padding: 10px;
             cursor: pointer;
             font-size: 36px;
+            text-align: center;
+        }
+        .tab a br + span {
+            font-size: 16px;
         }
         .tab a.active {
             background-color: #555;
@@ -136,9 +140,9 @@
         <div class="modal-content">
             <span class="close" id="closeModal">&times;</span>
             <div class="tab">
-                <a href="https://m.me/your-page"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="36" height="36"></a>
-                <a href="mailto:your-email@example.com"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="36" height="36"></a>
-                <a href="tel:+36309398399"><img src="t.jpg " width="36" height="36"></a>
+                <a href="https://m.me/your-page"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="36" height="36"><br><span class="tab-text">Messenger</span></a>
+                <a href="mailto:your-email@example.com"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="36" height="36"><br><span class="tab-text">E-mail</span></a>
+                <a href="tel:+36309398399"><img src="t.jpg" width="36" height="36"><br><span class="tab-text">Telefon</span></a>
             </div>
         </div>
     </div>
